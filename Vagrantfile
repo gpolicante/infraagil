@@ -48,7 +48,6 @@ Vagrant.configure("2") do |config|
         vb.memory = "1024"
         end
 
-
    worker2.vm.provision "shell", inline: <<-SHELL
 	echo "192.168.33.150 automation.dexter.com.br "  >>  /etc/hosts 
 	echo "192.168.33.151 devops.dexter.com.br "  >>  /etc/hosts 
@@ -58,4 +57,17 @@ Vagrant.configure("2") do |config|
 
 
 end
+
+end
+
+
+
+
+
+
+
+
+
+
+
 
