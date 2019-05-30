@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
         manager.vm.network "private_network", ip: "192.168.33.150"
 	manager.vm.hostname = "automation.dexter.com.br" 
        config.vm.provider "virtualbox" do |vb|
-        vb.memory = "5256"
+        vb.memory = "4000"
         end
 
 
